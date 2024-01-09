@@ -1,0 +1,71 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(72, 163, 72);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.parent {
+    background-color: white;
+    height: 350px;
+    width: 850px;
+    border-radius: 15px;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.title h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+.title i{
+    color: grey;
+    margin: 5px 0;
+}
+
+.addTodoList {
+    padding-left: 30px;
+}
+
+.textAddTodo{
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px dotted black
+}
+.buttonAddTodo{
+    border-radius: 20px;
+    border: 0px;
+    background-color: blueviolet;
+    color: white;
+    height: 35px;
+    width: 75px;
+}
+
+.buttonAddTodo:hover{
+    cursor: pointer;
+    background-color: rgb(158, 64, 245);
+}
+
+.todoListItems {
+    padding-left: 30px;
+    margin: 5px 0;
+}
+
+.completed {
+    color: grey;
+    text-decoration: line-through;
+    font-style: italic;
+}
